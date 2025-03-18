@@ -30,7 +30,7 @@
 
  * EMPLOYERS - таблица-справочник со списком работодателей
 
-<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/d2a26db623c75572c71923b57241e038/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_4.png width="600" height="95">
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/d2a26db623c75572c71923b57241e038/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_4.png width="600" height="130">
 
 * INDUSTIES - таблица-справочник вариантов сфер деятельности работодателей
 
@@ -38,7 +38,7 @@
 
 * EMMPLOYERS_INDUSTRIES - дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности
 
-<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png width="600" height="130">
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png width="600" height="95">
 
 Сами таблицы связаны друг с другом через специальные колонки - id следующим образом:
 
