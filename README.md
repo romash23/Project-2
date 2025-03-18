@@ -1,4 +1,4 @@
-# <center> Проект 1. Анализ резюме из HeadHunter
+# <center> Проект 2. Анализ вакансий из HeadHunter
 
 ## Оглавление
 [1. Описание проекта](https://github.com/romash23/project-2/blob/master/README.md#Описание-проекта)  
@@ -13,14 +13,14 @@
 
 В данном проекте будет проводится анализ данных о резюме с сайта HeadHunter.ru за период 2018-2019 годов
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 
 ### Какой кейс решаем
 
 Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но чтобы построить модель, нужно сначала произвести некотоую работу с данными. Наша задача в этой проекте состоит как раз в том, чтобы эти данные преобразовать, исследовать и очистить.
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### Краткая информация о данных
 
@@ -30,7 +30,7 @@
 
 [Ссылка](https://drive.google.com/file/d/1gvAm_LFMBI-DTz31dWgY1OVGhUGDuNF4/view?usp=drive_link) на исходные данные
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 
 ### Этапы работы над проектом
@@ -58,17 +58,17 @@
 
 Последний шаг также немаловажен - именно благодаря ему вы сейчас читаете этот текст :smirk: и имеете возможность ознакомиться с моей работой :raising_hand:
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 
 ### Результат
 
 Так как на GitHub не отображаются графики из библиотеки *plotly*, сами графики были загружены в отдельную [папку](https://github.com/romash23/project-1/tree/master/plotly_graphics). Но для удобства, для каждого графика в [*jupyter-ноутбуке*](https://github.com/romash23/project-1/blob/master/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter.ipynb) были выложены скриншоты всех графиков (конечно самой анимации от *plotly* не будет, но лучше хотя бы так, чем совсем без графиков :grin:)
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### Выводы
 
 В данном проекте мы на практике применили знания, полученные ранее: работа с библиотеками *Numpy* и *Pandas*, визуализация данных в библиотеке *plotly*. Смогли примерить на себя "шкуру" настоящего дата-сайентиста :muscle: : попрактиковались в преобразовании, а также очистке данных от выбросов. Как оказалось, это задача достаточно важная и трудоемкая. Сама обработка датасета может занимать до 60-70% от всего времени, что затрачивает датасайентист при работе с данными. Но без этого - никак. На "сырых" данных любая, даже дорогостоющая и очень качественная модель, не даст нужных предсказаний, и возможно руковоство компании, видя "ложные" предсказания, соверших ряд стратегичех ошибок.
 
-[:point_up: К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
