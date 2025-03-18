@@ -22,7 +22,7 @@
  *Сама базы данных состоит из нескольких таблиц:*
  * VACANCIES - эта таблица хранит в себе данные по вакансиям и содержит следующие столбцы: 
  
- <img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/837cf6ff79f483e387a16c993634f3e4/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_2.png width="600" height="200">
+ <img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/837cf6ff79f483e387a16c993634f3e4/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_2.png width="800" height="250">
 
  * AREAS - таблица-справочник, которая хранит код региона и его название
 
