@@ -11,24 +11,38 @@
 
 ### Описание проекта
 
-В данном проекте будет проводится анализ данных о резюме с сайта HeadHunter.ru за период 2018-2019 годов
-
-:point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
-
-
-### Какой кейс решаем
-
-Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но чтобы построить модель, нужно сначала произвести некотоую работу с данными. Наша задача в этой проекте состоит как раз в том, чтобы эти данные преобразовать, исследовать и очистить.
+В данном проекте будет проводится анализ базы данных о вакансиях, взятые с сайта HeadHunter.ru. Суть проекта: попрактиковаться в написании sql-запросов на реальнных данных и проанализировать их.
 
 :point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### Краткая информация о данных
 
-Данные были предоставлены компанией HeadHunter за период 2018-2019 годов. Они представляют собой csv-файл, с которым удобно
-работать в библиотеке *Pandas*. Так же в одном из заданий будут использоваться допольные [данные](https://github.com/romash23/project-1/blob/master/data/ExchangeRates.csv), содержащие курсы валют на определенный момент времени. Они будут использоваться для перевода заработной платы соискателей к рублю, поскольку в данных от компании HeadHunter есть соискатели, которые живут не в России, 
-и соответственно получать зарплату хотят не в рублях, а в валюте своей страны
+ Сама база данных является являтся интелектаульной собственностью компании Scillfactory. По это причине в данной проекте нет возможности выложить исходные данные или ссылку на них.
 
-[Ссылка](https://drive.google.com/file/d/1gvAm_LFMBI-DTz31dWgY1OVGhUGDuNF4/view?usp=drive_link) на исходные данные
+ *Сама базы данных состоит из нескольких таблиц:*
+ * VACANCIES - эта таблица хранит в себе данные по вакансиям и содержит следующие столбцы: 
+ 
+ <img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/837cf6ff79f483e387a16c993634f3e4/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_2.png>
+
+ * AREAS - таблица-справочник, которая хранит код региона и его название
+
+ <img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/682c2306f3d46a25915a89d4ec7e16ed/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_3.png>
+
+ * EMPLOYERS - таблица-справочник со списком работодателей
+
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/d2a26db623c75572c71923b57241e038/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_4.png>
+
+* INDUSTIES - таблица-справочник вариантов сфер деятельности работодателей
+
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/2c76bca09937a1a05a9e66d51008e298/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_5.png>
+
+* EMMPLOYERS_INDUSTRIES - дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности
+
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/16ff3df0bb0ddecd922562f3c4bdd32c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_6.png>
+
+Сами таблицы связаны друг с другом через специальные колонки - id следующим образом:
+
+<img src=https://lms-cdn.skillfactory.ru/assets/courseware/v1/efd63819603e7d4f4433ed2fedec717c/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/SQL_pj2_2_1.png>
 
 :point_right: [К оглавлению](https://github.com/romash23/project-2/blob/master/README.md#%D0%9E%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
